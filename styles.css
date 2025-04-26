@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+  font-weight: 700;
+  color: #2C3E50;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.2em;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #34495E;
+}
+
+.quarto-title-meta {
+  margin-bottom: 0.5em;
+}
+
+.quarto-title-block {
+  margin-bottom: 0.5em;
+}
+
+.quarto-title {
+  margin-top: 0.5em;
+}
+
+hr {
+  margin: 0.5em 0;
+}
+
+#title-block-header {
+  margin-block-end: 0.5em;
+}
+
+.cell {
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+/* Additional styling for better readability */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #2C3E50;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5em;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+  }
+} 
